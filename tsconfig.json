@@ -6,7 +6,6 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "importHelpers": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -23,7 +22,7 @@
   },
   "include": [
     "src/**/*",
-    "__tests__/**/*"
+    "test/**/*"
   ],
   "exclude": [
     "node_modules",

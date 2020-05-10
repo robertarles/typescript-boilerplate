@@ -4,7 +4,7 @@
 
 + [TypeScript][typescript] [3.8][typescript-38]
 + [ESLint][eslint] with some initial rules recommendation
-+ [Mocha/Chai/Sinon][?] for fast unit testing, assertions, and mocking
++ [Mocha/Chai/Sinon][?] for unit testing, assertions, and mocking
 + Type definitions for Node.js
 + [Prettier][prettier] to enforce consistent code style
 + NPM [scripts](#available-scripts) for common operations

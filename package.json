@@ -27,7 +27,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
-    "test": "",
+    "test": ""
   },
-  "author": "robert <robert@arles.us>",
+  "author": "robert arles <robert@arles.us>"
 }
