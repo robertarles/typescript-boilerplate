@@ -9,21 +9,27 @@
     "chai": "4.2.0",
     "sinon": "9.0.2"
   },
+  "dependencies": {
+    "chai": "4.2.0",
+    "mocha": "7.1.2",
+    "sinon": "9.0.2",
+    "tslib": "~1.11.2"
+  },
   "devDependencies": {
-    "@types/node": "~12.12.27",
-    "@typescript-eslint/eslint-plugin": "~2.19.2",
-    "@typescript-eslint/parser": "~2.19.2",
-    "eslint": "~6.8.0",
-    "eslint-config-prettier": "~6.10.0",
-    "eslint-plugin-jest": "~23.7.0",
-    "prettier": "~1.19.1",
+    "@types/node": "~13.13.5",
+    "@typescript-eslint/eslint-plugin": "~2.31.0",
+    "@typescript-eslint/parser": "~2.31.0",
+    "eslint": "~7.0.0",
+    "eslint-config-prettier": "~6.11.0",
+    "eslint-plugin-jest": "~23.10.0",
+    "prettier": "~2.0.5",
     "rimraf": "~3.0.2",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "~3.8.3"
   },
   "scripts": {
     "all": "npm run clean && npm run lint && npm run build",
-    "clean": "rimraf coverage build tmp",
+    "clean": "rimraf dist tmp",
     "lint": "eslint . --ext .ts,.tsx",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
