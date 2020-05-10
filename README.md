@@ -23,3 +23,11 @@ To start, just click the **[Use template][repo-template-action]** link (or the g
 + `lint` - lint source files and tests,
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
+
+[eslint]: https://github.com/eslint/eslint
+[wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
+[prettier]: https://prettier.io
+[gh-actions]: https://github.com/features/actions
+[travis]: https://travis-ci.org
+
+[repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
