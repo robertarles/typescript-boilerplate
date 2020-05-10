@@ -72,6 +72,7 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 Support this project by becoming a sponsor.
 
 ## License
+
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-3.8-blue.svg

@@ -6,19 +6,16 @@
     "node": ">= 12.13 <13"
   },
   "devDependencies": {
-    "@types/jest": "~25.1.2",
     "@types/node": "~12.12.27",
     "@typescript-eslint/eslint-plugin": "~2.19.2",
     "@typescript-eslint/parser": "~2.19.2",
     "eslint": "~6.8.0",
     "eslint-config-prettier": "~6.10.0",
     "eslint-plugin-jest": "~23.7.0",
-    "jest": "~25.1.0",
     "prettier": "~1.19.1",
     "rimraf": "~3.0.2",
-    "ts-jest": "~25.2.0",
-    "tsutils": "~3.17.0",
-    "typescript": "~3.8.2"
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "~3.8.3"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -28,9 +25,12 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "author": "robert <robert@arles.us>",
   "license": "Apache-2.0",
   "dependencies": {
-    "tslib": "~1.10.0"
+    "tslib": "~1.10.0",
+    "mocha": "7.1.2",
+    "chai": "4.2.0",
+    "sinon": "9.02"
   }
 }
