@@ -1,9 +1,13 @@
 {
-  "name": "node-typescript-boilerplate",
-  "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
-  "engines": {
-    "node": ">= 12.13 <13"
+  "name": "typescript-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "tslib": "~1.10.0",
+    "mocha": "7.1.2",
+    "chai": "4.2.0",
+    "sinon": "9.0.2"
   },
   "devDependencies": {
     "@types/node": "~12.12.27",
@@ -18,19 +22,12 @@
     "typescript": "~3.8.3"
   },
   "scripts": {
+    "all": "npm run clean && npm run lint && npm run build",
     "clean": "rimraf coverage build tmp",
+    "lint": "eslint . --ext .ts,.tsx",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
-    "lint": "eslint . --ext .ts,.tsx",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test": "",
   },
   "author": "robert <robert@arles.us>",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "tslib": "~1.10.0",
-    "mocha": "7.1.2",
-    "chai": "4.2.0",
-    "sinon": "9.02"
-  }
 }

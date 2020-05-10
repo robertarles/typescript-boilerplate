@@ -12,9 +12,5 @@ coverage
 # Transpiled files
 build/
 
-# VS Code
-.vscode
-!.vscode/tasks.js
-
 # Misc
 .DS_Store
